@@ -4,4 +4,4 @@ The Hermann grid illusion is an optical illusion reported by Ludimar Hermann in 
 
 *taken from Wikipedia*
 
-<img src="resources/1920px-HermannGrid.svg.png" width="300" height="300">
+<img src="../resources/1920px-HermannGrid.svg.png" width="300" height="300">
