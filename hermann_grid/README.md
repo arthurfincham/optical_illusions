@@ -4,4 +4,7 @@ The Hermann grid illusion is an optical illusion reported by Ludimar Hermann in 
 
 *taken from Wikipedia*
 
+[Preview](https://preview.p5js.org/arthurfincham/present/D-3Ty82rT) of my p5.js rendition!
+
+<h2>Original Illusion</h2>
 <img src="../resources/1920px-HermannGrid.svg.png" width="300" height="300">
