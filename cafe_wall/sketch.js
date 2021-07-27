@@ -1,8 +1,5 @@
-var v_height = window.screen.availHeight
-var v_width = window.screen.availWidth
-
 function setup() {
-  createCanvas(v_width, v_height);
+  createCanvas(700, 700);
 }
 
 function draw() {
