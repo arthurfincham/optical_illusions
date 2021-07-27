@@ -1,17 +1,31 @@
+var colors = [];
+
 function setup() {
   createCanvas(700, 700);
 }
 
 function draw() {
   background(255);
-
-  for (var i = 0; i < 100; i++) {
-    line(width / 100 * i, 0, width / 100 * i, height);
-    // LINE SHAKE ANIMATION
-    if (i == 1) {
-      translate(random(-0.9, 0.9), random(-0.9, 0.9));
-    
+  jump = 42;
+  stroke('grey');
+  strokeWeight(4);
+  for (var j = 0; j < 42; j++) {
+    for (var i = 0; i < 42; i++) {
+      if (j % 2 == 0) {
+        fill(0);
+      } else {
+        fill(255);
+      };if (i % 2 == 0) {
+        fill(0);
+      } else {
+        fill(255);
+      };
+    rect(i * jump + 42, j * jump + 42, 47, 47);
   }
-  }
-
 }
+}
+
+
+
+
+
