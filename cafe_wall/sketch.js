@@ -6,23 +6,27 @@ function setup() {
 
 function draw() {
   background(255);
-  jump = 42;
+  x_jump = 42;
+  y_jump = 42;
   stroke('grey');
-  strokeWeight(4);
-  for (var j = 0; j < 42; j++) {
-    for (var i = 0; i < 42; i++) {
-      if (j % 2 == 0) {
-        fill(0);
-      } else {
-        fill(255);
-      };if (i % 2 == 0) {
-        fill(0);
-      } else {
-        fill(255);
-      };
-    rect(i * jump + 42, j * jump + 42, 47, 47);
-  }
-}
+  strokeWeight(3);
+
+    for (var j = 0 ; j < 3; j++) {
+      for (var i = 0; i < 15; i++) {
+        if (j % 2 == 0) {
+          fill(0);
+        } else {
+          fill(255);
+        };if (i % 2 == 0) {
+          fill(0);
+        } else {
+          fill(255);
+        };
+        rect(i * x_jump + 12 + j*10, j * y_jump, 47, 47);
+      }
+    }
+
+
 }
 
 
