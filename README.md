@@ -1,3 +1,5 @@
+<img src="resources/banner.jpeg">
+
 # Optical Illusions
 
 A collection of classic optical illusions made with **p5.js**, a JavaSript library for creative coding.
