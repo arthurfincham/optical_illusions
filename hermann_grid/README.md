@@ -164,7 +164,7 @@ Make sure that the values are in the right place!
 
 # Final Product
 
-<img src="../resources/finalgrid.png"  width="300" height="300">
+<img src="../resources/finalgrid.png" style="float: left; padding-right: 30px;" width="300" height="300">
 
 ``` Javascript
 function setup() {
