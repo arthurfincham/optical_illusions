@@ -1,7 +1,7 @@
 var colors = [];
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(800, 700);
 }
 
 function draw() {
@@ -9,10 +9,10 @@ function draw() {
   x_jump = 55;
   y_jump = 55;
   stroke('grey');
-  strokeWeight(3);
+  strokeWeight(3.3);
 
-    for (var j = 0 ; j < 50; j++) {
-      for (var i = 0; i < 50; i++) {
+    for (var j = 0 ; j < 30; j++) {
+      for (var i = 0; i < 30; i++) {
         if (j % 2 == 0) {
           fill(0);
         } else {
@@ -23,19 +23,14 @@ function draw() {
           fill(255);
         };
         if (j % 3 == 0){
-          rect(i * x_jump + 12 + 30, j * y_jump, 60, 60);
+          rect(i * x_jump - 10, j * y_jump, 80, 90);
         } else if (j % 2 == 0){
-          rect(i * x_jump + 12 + 15, j * y_jump, 60, 60);
+          rect(i * x_jump - 30, j * y_jump, 100, 60);
         } else {
-          rect(i * x_jump + 12, j * y_jump, 60, 60);
+          rect(i * x_jump - 50, j * y_jump, 90, 60);
         }
       }
     }
 
 
 }
-
-
-
-
-
