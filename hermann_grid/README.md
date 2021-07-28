@@ -4,14 +4,8 @@
 <p style="min-height: 200px;"> The Hermann grid illusion is an optical illusion reported by Ludimar Hermann in 1870.[1] The illusion is characterized by "ghostlike" grey blobs perceived at the intersections of a white (or light-colored) grid on a black background. The grey blobs disappear when looking directly at an intersection.<br><br><i>taken from Wikipedia</i></p>
 
 
-<h1>p5.js Setup</h1>
+# :wrench: p5.js Setup
  
-
-First we need to set up p5.js. 
-
----
-
-
 1. To include the p5.js library in your script, go to the [**CDN page**](https://cdnjs.com/libraries/p5.js) - here you will find the latest version.
 
 
@@ -63,9 +57,11 @@ Our file structure should now look like:
 ... and we are ready to code!
 
 ---
+
 This may seem strange - there is no ```<canvas>``` tag in our HTML as one might expect. Our ```sketch.js``` file will create one!
 
-# Canvas Set Up
+
+# :art: Canvas Set Up
 
 To get started with p5, we need two functions in our code:
 
@@ -163,7 +159,7 @@ for (var i = 0; i < 25; i++){
 
 Make sure that the values are in the right place!
 
-# Final Product
+# :star: Final Product
 
 <img src="../resources/finalgrid.png" style="float: left; padding-right: 30px;" width="300" height="300">
 
