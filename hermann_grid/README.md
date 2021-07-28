@@ -18,9 +18,9 @@ function draw() {
   background(150);
 }
 ```
-1. The ```setup()``` function runs once as the page loads, and we will create a canvas on our page that is 750px by 750px by using ```createCanvas(x, y)``` .
+### 1. The ```setup()``` function runs once as the page loads, and we will create a canvas on our page that is 750px by 750px by using ```createCanvas(x, y)``` .
 
-2. Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
+### 2. Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
 
 
 
@@ -32,9 +32,9 @@ function draw() {
 ---
 
 
-1. The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
+### 3. The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
 
-2. Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
+### 4. Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
 
 ``` Javascript
   for (var i = 0; i < 25; i++){ 
@@ -79,7 +79,7 @@ line(width/25*i, 0, width/25*i, height)
 
 If we check our canvas now, however, it will render a black square. Not quite what we are looking for! The reason is that we have not yet styled the lines. 
 
-5. To do so, we must add some properties.
+### 5. To do so, we must add some properties.
 
 ``` Javascript
   stroke('white');
@@ -96,7 +96,7 @@ Here, we have told p5 to make our lines white and 7 pixels wide.
 
 ---
 
-6. Finally, we need to add another loop to get our horizontal lines.
+### 6. Finally, we need to add another loop to get our horizontal lines.
 
 This will be pretty much the same as the first loop, but with the height and width values switched around.
 
