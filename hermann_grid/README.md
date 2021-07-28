@@ -9,31 +9,35 @@
 
 To get started with p5, we need two functions in our code:
 
+#### 1. The ```setup()``` function runs once as the page loads, and we will create a canvas on our page that is 750px by 750px by using ```createCanvas(x, y)``` .
+
 ``` Javascript
 function setup() {
   createCanvas(750, 750);
 }
+```
 
+#### 2. Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
+
+``` Javascript
 function draw() {
   background(150);
 }
 ```
-#### 1. The ```setup()``` function runs once as the page loads, and we will create a canvas on our page that is 750px by 750px by using ```createCanvas(x, y)``` .
-
-#### 2. Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
 
 
+Our page should now look like this:
 
-<figure style="display: flex; justify-content: space-between; align-items: center;">
-  <figcaption>Our page should now look like this:</figcaption>
-  <img src="../resources/background-gray.png"  width="250" height="250">
-</figure>
+<img src="../resources/background-gray.png"  width="250" height="250">
 
 
 
-#### 3. The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
 
-#### 4. Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
+The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
+
+#### 3. Then, we need to generate the vertical lines. 
+
+This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
 
 ``` Javascript
   for (var i = 0; i < 25; i++){ 
@@ -41,7 +45,7 @@ function draw() {
   }
 ```
 <details>
-  <summary>How does this loop work?</summary>
+  <summary><strong>How does this loop work?</strong></summary>
 
 Our for loop is telling p5 to do a few things. 
 
