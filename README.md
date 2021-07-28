@@ -1,7 +1,5 @@
 <img src="resources/banner.jpeg">
 
-# Optical Illusions
-
 A collection of classic optical illusions made with **p5.js**, a JavaSript library for creative coding.
 
 To get started with p5.js, follow the instructions below.
@@ -12,7 +10,7 @@ For help in creating each illusion, navigate to the respective folder.
 
 | Illusion                                                                              | Repo                                                                                        |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [Hermann Grid](https://www.illusionsindex.org/i/hermann-grid))                        | [hermann_grid](https://github.com/arthurfincham/optical_illusions/tree/master/hermann_grid) |
+| [Hermann Grid](https://www.illusionsindex.org/i/hermann-grid)                        | [hermann_grid](https://github.com/arthurfincham/optical_illusions/tree/master/hermann_grid) |
 | [Cafe Wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall) | [cafe_wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall)       |
 | [Munker-White](https://michaelbach.de/ot/lum-white/)                                  | [munker_white](https://github.com/arthurfincham/optical_illusions/tree/master/munker_white) |
 
