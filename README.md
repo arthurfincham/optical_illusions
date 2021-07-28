@@ -5,9 +5,20 @@ To get started with p5.js, follow the instructions below.
 
 For help in creating each illusion, navigate to the respective folder.
 
+
+| Illusion      | Repo |
+| ----------- | ----------- |
+| [Hermann Grid]([URL](https://www.illusionsindex.org/i/hermann-grid))      | [hermann_grid](https://github.com/arthurfincham/optical_illusions/tree/master/hermann_grid)       |
+| [Cafe Wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall)   | [cafe_wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall)        |
+| [Munker-White](https://michaelbach.de/ot/lum-white/)   | [munker_white](https://github.com/arthurfincham/optical_illusions/tree/master/munker_white)        |
+
+
 # :wrench: p5.js Setup
  
 1. To include the p5.js library in your script, go to the [**CDN page**](https://cdnjs.com/libraries/p5.js) - here you will find the latest version.
+
+Latest release as of July 2021:
+https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js
 ---
 2. Then, we can include the link in a ```<script>``` tag in our HTML ```<head>``` .
 
