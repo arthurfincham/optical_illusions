@@ -11,10 +11,11 @@ First we need to set up p5.js.
 
 ---
 
-To include the p5.js library in your script, go to the [**CDN page**](https://cdnjs.com/libraries/p5.js) - here you will find the latest version.
+
+1. To include the p5.js library in your script, go to the [**CDN page**](https://cdnjs.com/libraries/p5.js) - here you will find the latest version.
 
 
-Then, we can include the link in a ```<script>``` tag in our HTML ```<head>``` .
+2. Then, we can include the link in a ```<script>``` tag in our HTML ```<head>``` .
 
 Our HTML should now look as follows:
 
@@ -35,14 +36,14 @@ Our HTML should now look as follows:
 </html>
 ```
 ---
-Next, we need to create a ```script.js``` file.
+3. Next, we need to create a ```script.js``` file.
 
 Our file structure should now look like:
 
 <img src="../resources/p5filestructure.png">
 
 ---
-Finally, we include a ```<script>``` tag in the ```<body>``` of our HTML. Our code is...
+4. Finally, we include a ```<script>``` tag in the ```<body>``` of our HTML. Our code is...
 ``` HTML
 <!DOCTYPE html>
 <html>
@@ -77,9 +78,9 @@ function draw() {
   background(150);
 }
 ```
-The ```setup()``` function runs once as the page loads, and we will create a canvas on our page that is 750px by 750px by using ```createCanvas(x, y)``` .
+1. The ```setup()``` function runs once as the page loads, and we will create a canvas on our page that is 750px by 750px by using ```createCanvas(x, y)``` .
 
-Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
+2. Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
 
 Our page should now look like this:
 
@@ -88,9 +89,9 @@ Our page should now look like this:
 ---
 
 
-The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
+3. The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
 
-Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
+4. Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
 
 ``` Javascript
   for (var i = 0; i < 25; i++){ 
@@ -135,7 +136,7 @@ line(width/25*i, 0, width/25*i, height)
 
 If we check our canvas now, however, it will render a black square. Not quite what we are looking for! The reason is that we have not yet styled the lines. 
 
-To do so, we must add some properties.
+5. To do so, we must add some properties.
 
 ``` Javascript
   stroke('white');
@@ -150,7 +151,7 @@ If we save our code and check back on the canvas, it should look like this:
 
 ---
 
-Finally, we need to add another loop to get our horizontal lines.
+6. Finally, we need to add another loop to get our horizontal lines.
 
 This will be pretty much the same as the first loop, but with the height and width values switched around.
 
