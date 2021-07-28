@@ -1,8 +1,9 @@
 <h1>Hermann Grid</h1>
-<img src="../resources/1920px-HermannGrid.svg.png" style="float: right;" width="200" height="200">
 
-<p style="min-height: 200px;"> The Hermann grid illusion is an optical illusion reported by Ludimar Hermann in 1870.[1] The illusion is characterized by "ghostlike" grey blobs perceived at the intersections of a white (or light-colored) grid on a black background. The grey blobs disappear when looking directly at an intersection.<br><br><i>taken from Wikipedia</i></p>
-
+<figure style="display: flex; justify-content: space-between; align-items: center;">
+  <figcaption>The Hermann grid illusion is an optical illusion reported by Ludimar Hermann in 1870.[1] The illusion is characterized by "ghostlike" grey blobs perceived at the intersections of a white (or light-colored) grid on a black background. The grey blobs disappear when looking directly at an intersection.</figcaption>
+  <img src="../resources/1920px-HermannGrid.svg.png" width="200" height="200">
+</figure>
 
 # :wrench: p5.js Setup
  
@@ -32,12 +33,14 @@ Our HTML should now look as follows:
 ---
 3. Next, we need to create a ```script.js``` file.
 
-Our file structure should now look like:
 
-<img src="../resources/p5filestructure.png">
+<figure style="display: flex; justify-content: space-between; align-items: center;">
+  <figcaption>Our file structure should now look like:</figcaption>
+  <img src="../resources/p5filestructure.png">
+</figure>
 
 ---
-4. Finally, we include a ```<script>``` tag in the ```<body>``` of our HTML. Our code is...
+1. Finally, we include a ```<script>``` tag in the ```<body>``` of our HTML. Our code is...
 ``` HTML
 <!DOCTYPE html>
 <html>
@@ -78,16 +81,19 @@ function draw() {
 
 2. Then, we use the ```draw()``` function to get creative. The ```background()``` sets the background for our page - in this case, a shade of gray.
 
-Our page should now look like this:
 
-<img src="../resources/background-gray.png"  width="300" height="300">
+
+<figure style="display: flex; justify-content: space-between; align-items: center;">
+  <figcaption>Our page should now look like this:</figcaption>
+  <img src="../resources/background-gray.png"  width="250" height="250">
+</figure>
 
 ---
 
 
-3. The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
+1. The background has been set to 150 to see that our canvas is ready. Now, we can change it back to 0.
 
-4. Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
+2. Then, we need to generate the vertical lines. This could be done one by one, but it would take a long, long time. Thankfully, p5 lets us use a for loop.
 
 ``` Javascript
   for (var i = 0; i < 25; i++){ 
@@ -141,9 +147,11 @@ If we check our canvas now, however, it will render a black square. Not quite wh
 
 Here, we have told p5 to make our lines white and 7 pixels wide.
 
-If we save our code and check back on the canvas, it should look like this:
 
-<img src="../resources/verticallines.png"  width="300" height="300">
+<figure style="display: flex; justify-content: space-between; align-items: center;">
+  <figcaption>If we save our code and check back on the canvas, it should look like this:</figcaption>
+  <img src="../resources/verticallines.png"  width="250" height="250">
+</figure>
 
 ---
 
