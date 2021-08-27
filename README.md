@@ -8,7 +8,7 @@ For help in creating each illusion, navigate to the respective folder.
 
 # Index of Illusions
 
-| Illusion                                                                              | Repo                                                                                        |
+| Illusion Info                                                                              | Repo                                                                                        |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | [Hermann Grid](https://www.illusionsindex.org/i/hermann-grid)                        | [hermann_grid](https://github.com/arthurfincham/optical_illusions/tree/master/hermann_grid) |
 | [Cafe Wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall) | [cafe_wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall)       |
