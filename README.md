@@ -6,6 +6,8 @@ To get started with p5.js, follow the instructions below.
 
 For help in creating each illusion, navigate to the respective folder.
 
+https://editor.p5js.org/arthurfincham/collections/u1Rp4mLSq
+
 # Index of Illusions
 
 | Illusion Info                                                                              | Repo                                                                                        |
