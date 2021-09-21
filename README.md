@@ -26,7 +26,7 @@ https://editor.p5js.org/arthurfincham/collections/u1Rp4mLSq
 | [Munker-White](https://michaelbach.de/ot/lum-white/)                                  | [munker_white](https://github.com/arthurfincham/optical_illusions/tree/master/munker_white) | [preview](https://editor.p5js.org/arthurfincham/sketches/DEx72t7kt) |
 
 
-# :wrench: p5.js Setup
+# :wrench: p5.js Setup (for inclusion in HTML)
  
 #### 1. To include the p5.js library in your script, go to the [**CDN page**](https://cdnjs.com/libraries/p5.js) - here you will find the latest version.
 
