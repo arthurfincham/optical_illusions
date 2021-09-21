@@ -1,11 +1,20 @@
 <img src="resources/banner.jpeg">
 
+<div align="center">
+
+![](https://img.shields.io/github/last-commit/arthurfincham/optical_illusions)
+![](https://img.shields.io/github/languages/count/arthurfincham/optical_illusions)
+![](https://img.shields.io/github/languages/code-size/arthurfincham/optical_illusions)
+
+</div>
+
 A collection of classic optical illusions made with **p5.js**, a JavaSript library for creative coding.
 
 To get started with p5.js, follow the instructions below.
 
 For help in creating each illusion, navigate to the respective folder.
 
+To see the illusions in the p5 editor:
 https://editor.p5js.org/arthurfincham/collections/u1Rp4mLSq
 
 # Index of Illusions
