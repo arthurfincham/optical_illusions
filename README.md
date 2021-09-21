@@ -14,16 +14,16 @@ To get started with p5.js, follow the instructions below.
 
 For help in creating each illusion, navigate to the respective folder.
 
-To see the illusions in the p5 editor:
+To see the collection in the p5 editor:
 https://editor.p5js.org/arthurfincham/collections/u1Rp4mLSq
 
 # Index of Illusions
 
-| Illusion Info                                                                              | Repo                                                                                        |
-| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| [Hermann Grid](https://www.illusionsindex.org/i/hermann-grid)                        | [hermann_grid](https://github.com/arthurfincham/optical_illusions/tree/master/hermann_grid) |
-| [Cafe Wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall) | [cafe_wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall)       |
-| [Munker-White](https://michaelbach.de/ot/lum-white/)                                  | [munker_white](https://github.com/arthurfincham/optical_illusions/tree/master/munker_white) |
+| Illusion Info                                                                              | Repo                                                                                        | Preview |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [Hermann Grid](https://www.illusionsindex.org/i/hermann-grid)                        | [hermann_grid](https://github.com/arthurfincham/optical_illusions/tree/master/hermann_grid) | [preview](https://editor.p5js.org/arthurfincham/sketches/D-3Ty82rT) |
+| [Cafe Wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall) | [cafe_wall](https://github.com/arthurfincham/optical_illusions/tree/master/cafe_wall)       | [preview](https://editor.p5js.org/arthurfincham/sketches/pk0z4QVyN)
+| [Munker-White](https://michaelbach.de/ot/lum-white/)                                  | [munker_white](https://github.com/arthurfincham/optical_illusions/tree/master/munker_white) | [preview](https://editor.p5js.org/arthurfincham/sketches/DEx72t7kt) |
 
 
 # :wrench: p5.js Setup
